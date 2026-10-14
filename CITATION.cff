@@ -3,7 +3,7 @@ cff-version: 1.2.0
 message: "If you use this software in scientific research, please cite the article specified below."
 
 type: software
-title: "NAME OF SOFTWARE"
+title: "MultiLayerFocus"
 
 authors:
   - family-names: "Surname"
