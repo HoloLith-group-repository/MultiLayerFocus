@@ -1,0 +1,28 @@
+
+cff-version: 1.2.0
+message: "If you use this software in scientific research, please cite the article specified below."
+
+type: software
+title: "NAME OF SOFTWARE"
+
+authors:
+  - family-names: "Surname"
+    given-names: "First Name"
+  - family-names: "Surname"
+    given-names: "First Name"
+
+license: "LicenseRef-NonCommercial-Research"
+version: "1.0.0"
+
+preferred-citation:
+  type: article
+  title: "TITLE OF THE SCIENTIFIC ARTICLE"
+  authors:
+    - family-names: "Surname"
+      given-names: "First Name"
+    - family-names: "Surname"
+      given-names: "First Name"
+  journal: "NAME OF JOURNAL"
+  year: 2026
+  volume: "1"
+  doi: "10.1234/example"
