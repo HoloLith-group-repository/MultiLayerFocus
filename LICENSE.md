@@ -3,7 +3,7 @@
 
 **Non-Commercial Research and Academic Use**
 
-Copyright (c) 2026 [Authors' Full Names]
+Copyright (c) 2026 [Francesco Reda, Davide Romano, Marcella Salvatore, Stefano Luigi Oscurato]
 
 All rights reserved.
 
@@ -49,5 +49,5 @@ The copyright holders shall not be liable for damages arising from its use, to t
 
 For commercial use, corporate applications, or other permissions not expressly granted by this license, prior written authorization must be obtained from the copyright holders.
 
-Contact: [Email Address]
+Contact: [francesco.reda@unina.it , stefanoluigi.oscurato@unina.it]
 
