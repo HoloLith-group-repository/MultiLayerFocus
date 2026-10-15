@@ -40,6 +40,19 @@ The numerical model and its validation are discussed in the accompanying scienti
 
 ## Installation and Execution
 
+### Run from source
+
+Download or clone this repository, then open a terminal in the `MultiLayerFocus` folder containing `pyproject.toml`.
+Install the package and its dependencies:
+
+''' python -m pip install .'''
+
+Launch the graphical interface:
+
+''' python -m stratified_focus.gui'''
+
+For additional information, consult the GUI User Guide.
+
 ### Windows portable application
 
 MultiLayerFocus is available as a portable Windows application.
@@ -50,15 +63,7 @@ Download the application distribution, extract it into a folder, and run:
 
 Keep the executable together with its accompanying application files and the `_internal` folder.
 
-### Python graphical interface
 
-When the Python package is installed in a compatible environment, the graphical interface can be launched using:
-
-```bash
-python -m stratified_focus.gui
-```
-
-For additional information, consult the GUI User Guide.
 
 ## Getting Started
 
