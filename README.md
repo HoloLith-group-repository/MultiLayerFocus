@@ -58,14 +58,10 @@ For additional information, consult the GUI User Guide.
 
 ### Windows portable application
 
-MultiLayerFocus is available as a portable Windows application.
+Compiled Windows distributions are not included in the source repository. When available, they can be downloaded from the Releases section of this GitHub repository.
 
-Download the application distribution, extract it into a folder, and run:
-
-`MultiLayerFocus.exe`
-
-Keep the executable together with its accompanying application files and the `_internal` folder.
-
+Extract the complete distribution ZIP into a folder, then run `MultiLayerFocus.exe`.
+Keep the executable together with all accompanying application files, including the `_internal` folder. A separate Python installation is not required for the portable application.
 
 
 ## Getting Started
