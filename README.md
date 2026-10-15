@@ -45,12 +45,15 @@ The numerical model and its validation are discussed in the accompanying scienti
 Download or clone this repository, then open a terminal in the `MultiLayerFocus` folder containing `pyproject.toml`.
 Install the package and its dependencies:
 
-''' python -m pip install .'''
+```bash
+python -m pip install .
+```
 
 Launch the graphical interface:
 
-''' python -m stratified_focus.gui'''
-
+```bash
+python -m stratified_focus.gui
+```
 For additional information, consult the GUI User Guide.
 
 ### Windows portable application
