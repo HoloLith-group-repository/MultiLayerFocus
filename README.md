@@ -117,7 +117,7 @@ Please refer to `CITATION.cff` for the bibliographic information and the preferr
 
 ## License
 
-Copyright © 2026 [Francesco Reda, Davide Romano, Marcella Salvatore, Stefano Luigi Oscurato1].
+Copyright © 2026 [Francesco Reda, Davide Romano, Marcella Salvatore, Stefano Luigi Oscurato].
 
 MultiLayerFocus is distributed under a non-commercial research license.
 
