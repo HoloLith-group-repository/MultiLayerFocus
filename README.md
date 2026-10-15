@@ -4,19 +4,17 @@
   <img src="logo.png" alt="MultiLayerFocus logo" width="300">
 </p>
 
-**A Python toolbox for vectorial focusing in stratified media**
+**A toolbox for vectorial focusing in stratified media**
 
 MultiLayerFocus is a Python-based numerical toolbox for simulating high-numerical-aperture (NA) focusing in homogeneous and stratified optical media.
 
-The software combines the vectorial **Debye–Wolf diffraction formalism** with a coherent **transfer-matrix approach** to model the propagation of tightly focused electromagnetic fields through planar multilayer structures.
-
-It enables the reconstruction and analysis of the complex electric field before, inside, and after multilayer structures, accounting for polarization-dependent transmission, reflection, interference, and absorption.
+The software combines the vectorial **Debye–Wolf diffraction formalism** with a coherent **transfer-matrix approach** to model the propagation of tightly focused electromagnetic fields through planar multilayer structures. It enables the reconstruction and analysis of the complex electric field before, **inside**, and after multilayer structures, accounting for polarization-dependent transmission, reflection, and absorption.
 
 MultiLayerFocus provides a graphical user interface (GUI) for configuring optical systems, performing numerical simulations, visualizing field distributions, and exporting results.
 
 ## Key Features
 
-- **Vectorial high-NA focusing:** Numerical reconstruction of the three Cartesian electric-field components (Ex, Ey, Ez) using the Debye–Wolf formalism.
+- **Vectorial high-NA focusing:** Numerical reconstruction of the Cartesian field components (Ex, Ey, Ez) using the Debye–Wolf formalism.
 - **Multilayer optical structures:** Simulation of stratified dielectric and absorbing media using polarization-dependent transfer matrices.
 - **Multiple reflections:** Coherent treatment of forward- and backward-propagating fields within finite layers.
 - **Flexible pupil illumination:** Support for uniform, elliptical, circular, radial, azimuthal, and mixed cylindrical-vector polarization states.
@@ -86,10 +84,7 @@ Depending on the selected configuration, MultiLayerFocus provides:
 - Total and component-resolved electric-field intensity distributions.
 - Transverse and longitudinal intensity maps.
 - Three-dimensional electric-field intensity visualization.
-- Spatially resolved polarization properties.
-- Numerical data for further processing and analysis.
-
-Simulation results can be saved as reloadable `.npz` files.
+- Spatially resolved polarization ellipse recontruction.
 
 The *Export session* function can generate a complete simulation record containing a numerical snapshot, a PDF report, graphical outputs in PNG or TIFF format, and text data files.
 
@@ -120,7 +115,7 @@ Please refer to `CITATION.cff` for the bibliographic information and the preferr
 
 Copyright © 2026 [Francesco Reda, Davide Romano, Marcella Salvatore, Stefano Luigi Oscurato1].
 
-MultiLayerFocus is distributed under a custom non-commercial research license.
+MultiLayerFocus is distributed under a non-commercial research license.
 
 Academic and non-commercial scientific research use is permitted under the conditions described in the `LICENSE` file.
 
