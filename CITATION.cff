@@ -1,9 +1,12 @@
 
 cff-version: 1.2.0
-message: "If you use this software in scientific research, please cite the article specified below."
+message: "If you use MultiLayerFocus in scientific research, please cite the scientific article specified below."
 
 type: software
-title: "MultiLayerFocus"
+title: "MultiLayerFocus – a toolbox for vectorial focusing in stratified media"
+version: "2.1.0"
+license: "CC-BY-4.0"
+date-released: 2026-11-13
 
 authors:
   - family-names: "Reda"
@@ -12,26 +15,24 @@ authors:
     given-names: "Davide"
   - family-names: "Salvatore"
     given-names: "Marcella"
+  - family-names: "Piccardo"
+    given-names: "Marco"
   - family-names: "Oscurato"
     given-names: "Stefano Luigi"
-license: "LicenseRef-NonCommercial-Research"
-version: "1.0.0"
 
 preferred-citation:
   type: article
   title: "MultiLayerFocus – a toolbox for vectorial focusing in stratified media"
-
   authors:
-  - family-names: "Reda"
-    given-names: "Francesco"
-  - family-names: "Romano"
-    given-names: "Davide"
-  - family-names: "Salvatore"
-    given-names: "Marcella"
-  - family-names: "Oscurato"
-    given-names: "Stefano Luigi"
-
+    - family-names: "Reda"
+      given-names: "Francesco"
+    - family-names: "Romano"
+      given-names: "Davide"
+    - family-names: "Salvatore"
+      given-names: "Marcella"
+    - family-names: "Piccardo"
+      given-names: "Marco"
+    - family-names: "Oscurato"
+      given-names: "Stefano Luigi"
   journal: "Open Research Europe"
   year: 2026
-  volume: "NA"
-  doi: "NA"
