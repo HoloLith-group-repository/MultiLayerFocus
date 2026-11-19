@@ -373,4 +373,4 @@ The CC BY 4.0 license does not impose a non-commercial restriction.
 
 Third-party libraries and dependencies remain subject to their respective licenses.
 
-See the `LICENSE` file for the complete legal
+See the `LICENSE` file for the complete license terms
