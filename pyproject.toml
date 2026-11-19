@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multilayerfocus"
+version = "2.1.0"
+description = "Vectorial focusing through stratified optical media"
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.scripts]
+multilayerfocus = "multilayerfocus.app:main"
+multilayerfocus-batch = "multilayerfocus.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["multilayerfocus*", "stratified_focus*"]
+
+[tool.setuptools.package-data]
+multilayerfocus = ["*.png", "*.csv"]
+stratified_focus = ["*.png", "*.npz"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

@@ -1,0 +1,10 @@
+# Runtime dependencies for the source GUI, scientific solver and PDF exports.
+# Pip resolves versions compatible with the selected Python interpreter.
+numpy>=2.0,<3
+scipy>=1.13,<2
+matplotlib>=3.8,<4
+Pillow>=10,<13
+PyQt6>=6.5,<7
+pyqtgraph>=0.13,<0.15
+vtk>=9.3,<10
+reportlab>=4.0,<5
